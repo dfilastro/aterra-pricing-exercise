@@ -10,7 +10,7 @@ export async function GET() {
 
 /**
  * PATCH /api/quote
- * Body: { lineId: string, commPct?: number, mrkpPct?: number, nett?: number | null }
+ * Body: { lineId: string, commPct?: number, mrkpPct?: number, included?: boolean }
  * Returns the updated quote.
  *
  * The small delay is deliberate. Saving is not instant in the real product.

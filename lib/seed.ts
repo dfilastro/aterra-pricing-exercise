@@ -23,6 +23,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: true,
+      included: true,
       rate: {
         document: "2026 FIT contract",
         note: "Read from the current signed rate contract and unchanged since it was verified.",
@@ -42,6 +43,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: true,
+      included: true,
       rate: {
         document: "2026 rate letter, page 3",
         note: "Peak-season rate applied from 1 October. $340 a night above the June quote.",
@@ -61,6 +63,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: false,
+      included: true,
       rate: {
         document: "Supplier portal",
         note: "Held on the supplier portal for 48 hours pending deposit. Price firm while the hold stands.",
@@ -81,6 +84,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: false,
+      included: true,
       rate: {
         document: "—",
         note: "No contracted rate on file for this room type. Emailed the supplier 31 hours ago, no reply yet.",
@@ -100,6 +104,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: true,
+      included: true,
       rate: {
         document: "2026 tariff",
         note: "Read from the current signed rate contract and unchanged since it was verified.",
@@ -119,6 +124,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: true,
+      included: true,
       rate: {
         document: "2026 published fares",
         note: "Published fare, seats not yet ticketed.",
@@ -139,6 +145,7 @@ export const seedQuote: Quote = {
       // A consultant discounted this line to bring the trip under the ceiling.
       mrkpPct: -15,
       confirmed: true,
+      included: true,
       rate: {
         document: "2026 published fares",
         note: "Cross-border charter. Discount applied by the consultant to hold the trip under budget.",
@@ -158,6 +165,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: false,
+      included: true,
       rate: {
         document: "2025 tariff",
         note: "2025 tariff carried forward. 2026 rates not yet released by the operator.",
@@ -177,6 +185,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: false,
+      included: true,
       rate: {
         document: "2026 tariff",
         note: "Client named this in the brief. Availability requested, no reply for 31 hours.",
@@ -196,6 +205,7 @@ export const seedQuote: Quote = {
       commPct: 10,
       mrkpPct: 18,
       confirmed: true,
+      included: true,
       rate: {
         document: "2026 tariff",
         note: "Read from the current signed rate contract and unchanged since it was verified.",

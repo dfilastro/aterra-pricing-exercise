@@ -34,7 +34,7 @@ export function saveQuote(next: Quote): Quote {
  */
 export function updateLine(
   lineId: string,
-  patch: Partial<{ commPct: number; mrkpPct: number; nett: number | null }>
+  patch: Partial<{ commPct: number; mrkpPct: number; nett: number | null; included: boolean }>
 ): Quote {
   const quote = getQuote();
   const line = quote.lines.find((l) => l.id === lineId);

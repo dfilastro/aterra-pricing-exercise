@@ -43,6 +43,12 @@ export type LineItem = {
   /** Whether the service is confirmed with the supplier. */
   confirmed: boolean;
 
+  /**
+   * In this quotation. Unchecked lines stay visible as options.
+   * The Price step is where the consultant chooses which options ship.
+   */
+  included: boolean;
+
   rate: RateSource;
 };
 

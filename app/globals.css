@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  background: #f3eee6;
+  color: #2a241c;
+}
+
+body {
+  font-feature-settings: "ss01" on, "cv11" on;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Incomplete budget: the missing rate is a hole in the number, not a zero. */
+.hatch {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 3px,
+    rgba(163, 59, 44, 0.18) 3px,
+    rgba(163, 59, 44, 0.18) 5px
+  );
+}

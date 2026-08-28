@@ -1,9 +1,9 @@
 import { getQuote } from "@/lib/store";
-import PricingTable from "@/components/PricingTable";
+import PriceScreen from "@/components/PriceScreen";
 
 export const dynamic = "force-dynamic";
 
 export default function Page() {
   const quote = getQuote();
-  return <PricingTable quote={quote} />;
+  return <PriceScreen initialQuote={quote} />;
 }
